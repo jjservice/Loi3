@@ -48,8 +48,8 @@ fetch(url)
     }
 
 }
-const searchBtn =document.querySelector('button')
-searchBtn.addEventListener('click',updateTerm)
+const searchBtn =document.querySelector('button');
+searchBtn.addEventListener('click',updateTerm);
 
 document.addEventListener('play',event => {
     const audio =document.getElementsByTagName('audio');
